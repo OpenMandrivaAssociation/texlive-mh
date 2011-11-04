@@ -1,3 +1,9 @@
+# revision 23333
+# category Package
+# catalog-ctan /macros/latex/contrib/mh
+# catalog-date 2011-06-09 21:04:00 +0200
+# catalog-license lppl1.3
+# catalog-version undef
 Name:		texlive-mh
 Version:	20110609
 Release:	1
@@ -80,6 +86,7 @@ hides from the programmer.).
 %doc %{_texmfdistdir}/source/latex/mh/mathstyle.dtx
 %doc %{_texmfdistdir}/source/latex/mh/mathtools.dtx
 %doc %{_texmfdistdir}/source/latex/mh/mhsetup.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -90,3 +97,5 @@ hides from the programmer.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
