@@ -1,4 +1,4 @@
-# revision 23333
+# revision 26294
 # category Package
 # catalog-ctan /macros/latex/contrib/mh
 # catalog-date 2011-06-09 21:04:00 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-mh
 Version:	20110609
-Release:	2
+Release:	3
 Summary:	The MH bundle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mh
