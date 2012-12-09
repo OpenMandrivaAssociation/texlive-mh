@@ -86,3 +86,21 @@ hides from the programmer.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110609-3
++ Revision: 804942
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110609-2
++ Revision: 753978
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110609-1
++ Revision: 719015
+- texlive-mh
+- texlive-mh
+- texlive-mh
+- texlive-mh
+
