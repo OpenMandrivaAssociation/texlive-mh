@@ -1,12 +1,12 @@
-# revision 26294
+# revision 29420
 # category Package
 # catalog-ctan /macros/latex/contrib/mh
-# catalog-date 2011-06-09 21:04:00 +0200
+# catalog-date 2013-03-17 00:29:52 +0100
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-mh
-Version:	20110609
-Release:	3
+Version:	20130317
+Release:	1
 Summary:	The MH bundle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mh
@@ -86,21 +86,3 @@ hides from the programmer.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110609-3
-+ Revision: 804942
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110609-2
-+ Revision: 753978
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110609-1
-+ Revision: 719015
-- texlive-mh
-- texlive-mh
-- texlive-mh
-- texlive-mh
-
