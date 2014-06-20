@@ -1,12 +1,12 @@
-# revision 29420
+# revision 34240
 # category Package
 # catalog-ctan /macros/latex/contrib/mh
-# catalog-date 2013-03-17 00:29:52 +0100
+# catalog-date 2014-05-21 17:07:52 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-mh
-Version:	20130317
-Release:	6
+Version:	20140521
+Release:	1
 Summary:	The MH bundle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mh
@@ -25,7 +25,7 @@ appearance of documents containing a lot of math. The main
 backbone is amsmath, so those unfamiliar with this required
 part of the LaTeX system will probably not find the packages
 very useful. Component parts of the bundle are: breqn, empheq,
-flexisym, mathstyle and mathtools, mhsetup, The empheq package
+flexisym, mathstyle, mathtools and mhsetup, The empheq package
 is a visual markup extension of amsmath. Empheq allows
 sophisticated boxing and other marking of multi-line maths
 displays, and fixes problems with the way that the ntheorem
