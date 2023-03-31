@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-mh
 Version:	20140521
-Release:	6
+Release:	7
 Summary:	The MH bundle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mh
