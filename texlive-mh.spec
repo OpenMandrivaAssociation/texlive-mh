@@ -9,7 +9,7 @@ Version:	20140521
 Release:	7
 Summary:	The MH bundle
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mh
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mh
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mh.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mh.doc.tar.xz
